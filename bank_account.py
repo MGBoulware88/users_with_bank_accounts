@@ -31,7 +31,7 @@ class BankAccount:
     @classmethod
     def display_all_accounts_info(cls):
         for account in cls.all_accounts:
-            return f"Your {account.name} balance is ${account.balance}."
+            print(f"Your {account.name} balance is ${account.balance}.")
 
 # checking = BankAccount("Checking",500)
 # savings = BankAccount("Savings",10000,0.25)
