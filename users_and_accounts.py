@@ -10,5 +10,4 @@ gray.account.append(BankAccount("Savings",500,0.05))
 print(gray.display_user_balance(1))
 
 gray.transfer_money(100, 1, toby, 0)
-print(gray.display_user_balance(1))
-print(toby.display_user_balance(0))
+gray.account[0].display_account_info()
